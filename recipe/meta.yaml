@@ -1,4 +1,4 @@
-{% set version = "2.17.11" %}
+{% set version = "2.17.12" %}
 
 package:
   name: axel
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/axel-download-accelerator/axel/releases/download/v{{ version }}/axel-{{ version }}.tar.gz
-  sha256: f12682f981c83f374b82b0668f25f694a2042b617b236ee6fb057e5473c54e31
+  sha256: 0ad2d2dc4db0fa11e104d3cc29fb6b184938be0b79cd4873bc8038ef0ccabd02
 
 build:
   number: 0
