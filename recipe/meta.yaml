@@ -7,10 +7,6 @@ package:
 source:
   url: https://github.com/axel-download-accelerator/axel/releases/download/v{{ version }}/axel-{{ version }}.tar.gz
   sha256: 604ce7fbdb37500c462295d6c03fa59eb4dffb780fdf2fc3c41ffa75c8f6ec38
-  patches:
-    # https://github.com/conda-forge/axel-feedstock/pull/3
-    # https://github.com/axel-download-accelerator/axel/issues/397
-    - 0001-clang-atomic-var-init.patch  # [osx]
 
 build:
   number: 0
